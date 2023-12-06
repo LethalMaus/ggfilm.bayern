@@ -29,23 +29,6 @@ header h1 {
 	margin: 2vh;
 }
 
-.figure {
-	max-width: 25vw;
-	height: auto;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-}
-
-.figure-left {
-	left: 0;
-}
-
-.figure-right {
-	right: 0;
-}
-
 .video {
 	width: 80vw;
 	height: auto;
@@ -53,8 +36,18 @@ header h1 {
 	margin: 0;
 }
 
+h1, h2, p, span {
+	text-align: center;
+	width: 70vw;
+}
+
 p, span {
-	width: 40vw;
+	font-size: larger;
+}
+
+a {
+	display: block;
+	word-break: break-all;
 }
 
 ul {
